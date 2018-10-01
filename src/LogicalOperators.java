@@ -18,11 +18,11 @@ public class LogicalOperators {
 				number=sc.nextInt();
 		    }
 	    }
-		if (number!=10 && number>5) {
+		if (number!=10 && number>=5) {
 			System.out.println("You passed it but you don't have a 10.");
 		}
 		else {
-			if (number>5) {
+			if (number>=5) {
 				System.out.println("Congrats, you did what you had to do.");
 			}
 			else {
